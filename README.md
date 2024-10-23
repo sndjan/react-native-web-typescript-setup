@@ -19,7 +19,7 @@ npm install babel-plugin-module-resolver
 npm install module-alias
 ```
 
-## Step 3: Eject the App (if necessary)
+## Step 3: Eject the App (if you have no config/webpack.config.js)
 
 ```bash
 npm run eject
@@ -36,7 +36,7 @@ npm install typescript @types/react @types/react-dom react-native-web
 
 Add the following configuration to your `tsconfig.json`:
 
-```bash
+```json
 {
   "compilerOptions": {
     // ... other options ...
@@ -96,4 +96,4 @@ Copy and paste the following code into your `public/index.html` file:
 
 Now you are ready to develop a React Native Web project using TypeScript.
 
-Happy coding!
+**Happy coding!**
